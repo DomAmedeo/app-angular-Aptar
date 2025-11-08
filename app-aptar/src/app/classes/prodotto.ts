@@ -3,5 +3,5 @@ export class Prodotto {
     productName ?: string;
     supplierId ?: number;
     categoryId ?: number;
-    quantityPerUnit ?: number;
+    quantityPerUnit ?: string;
 }

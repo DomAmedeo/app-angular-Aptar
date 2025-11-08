@@ -11,7 +11,7 @@
     <tbody>
         <tr *ngFor="let prod of elenco">
             <td>{{ prod.productId }}</td>
-            <td>{{ prod.productName }}</td>
+            <td> <a href="/dettaglio/{{ prod.productId }}">{{ prod.productName }}</a></td>
             <td>{{ prod.supplierId }}</td>
             <td>{{ prod.categoryId }}</td>
             <td>{{ prod.quantityPerUnit }}</td>
